@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
-import './App.css';
+import '../App.css';
 
 class RubyCompoment extends React.Component{
     render(){
         return (
-            <div>
+            <div id="ruby-div">
+            <section data-aos="flip-right">
                 <h3 data-aos="flip-right">Ruby Projects</h3><br/>
-                <section data-aos="flip-right">
+                
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/uC-hWjSNuKE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </section>
+               
                 <br/>
                 <h5 data-aos="flip-right"><span>Big Mapple</span></h5>
                 <br/>
@@ -20,10 +21,15 @@ class RubyCompoment extends React.Component{
                 </p>
                 <br/>
                 <h3 data-aos="flip-right">Application Features</h3>
+                <ul>
+                    <li>Ruby on Rails</li>
+                    <li>Google Maps API</li>
+                    <li>Bootstrap for responsiveness</li>
 
+                </ul>
 
             
-
+            </section>
             </div>
         );
     }

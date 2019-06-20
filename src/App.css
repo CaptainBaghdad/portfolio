@@ -4,11 +4,21 @@
  
 }
 
-.level-1{
-  
+#node-div{
+  background: #61dafb;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
 }
-.tester{
-  
+#ruby-div{
+  background: #214141;;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+}
+
+#python-div{
+  background: rgba(224, 42, 42, 0.836);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
 }
 
 .App-logo {

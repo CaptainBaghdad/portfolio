@@ -5,7 +5,7 @@ import App from './App';
 import thunk from 'redux-thunk';
 import {Provider} from 'react-redux';
 import {createStore, applyMiddleware} from 'redux';
-import LanguageReducer from './reducers/LanguageReducer';
+//import LanguageReducer from './reducers/LanguageReducer';
 import languageReducer from './reducers/LanguageReducer';
 const store = createStore(languageReducer, applyMiddleware(thunk));
 
