@@ -11,7 +11,7 @@ class HeaderComponent extends React.Component{
                             <a href="#">Github</a>
                             </li>
                             <li>
-                                <a href="#">Contact</a>
+                                <a href="#python-projects">Contact</a>
                                 </li>
 
                                 <li>

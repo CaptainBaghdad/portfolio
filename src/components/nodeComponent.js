@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
+import '../css/sider.css';
 
 class NodeComponent extends React.Component{
 
@@ -10,67 +11,52 @@ class NodeComponent extends React.Component{
 
     render(){
         return (
-            <div id="node-div">
-                 <h3 data-aos="flip-right">Node Projects</h3><br/>
-                <section>
-                <iframe width="560" data-aos="zoom-in-right"
-                height="315" 
+            <div className="node-div">
+            <section data-aos="flip-right" className="ruby-projects">
+                <h3 className="r3" >Node Projects</h3><br/><hr/>
+
+                
+                
+                <section className="mapple-vid">
+                
+                <iframe className="map" width="360" data-aos="zoom-in-right"
+                height="215" 
                 src="https://www.youtube.com/embed/48Wx6iL-TFE" 
                 frameBorder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
 
-                </section>
-                <br/>
-
-                 <h5 data-aos="flip-right"><span>Clear Arabic</span></h5>
-                <br/>
-                <h5 data-aos="flip-right">Application Description</h5>
-                <br/>
-                <p data-aos="flip-right">Clear Arabic was designed to be able to assit a user in the ability to learn the Arabic
-                alphabet. The application is test based. There are multiple choice as well as drag and drop quizes to test the users retention.
-                </p>
-                <br/>
-                <h3 data-aos="flip-right">Application Features</h3>
-                <ul>
-                    <li>Node js</li>
+                <h5 data-aos="flip-right"><span>Clear Arabic</span></h5>
+                <h3 data-aos="flip-right" className="app-feat">Application Features</h3>
+                <ul className="ruby-feats">
+                <li>Node js</li>
                     <li>Handlebars for the template engine</li>
                     <li>MongoDB</li>
-                    <li>JQuery UI for a lot of the functionality</li>
+                    <li>JQuery UI for most of the functionality</li>
 
                 </ul>
-                <br/>
-                <section >
-                <iframe data-aos="zoom-in-right" width="560" height="315" src="https://www.youtube.com/embed/4jmNi3fe0aU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                </section>
-                <br/>
-                <h5 data-aos="flip-right"><span>Touch Typing</span></h5>
-                <br/>
-                <h5 data-aos="flip-right">Application Description</h5>
-                <br/>
-                <p data-aos="flip-right">Touch Typing was created to make the learning of the skill of touch typing more easy. There are multiple letters with the ability to compete 
-                with other users for the fastest word per minute.
-                </p>
-                <br/>
-                <h3 data-aos="flip-right">Application Features</h3>
-                <ul>
-                    <li>Node Js</li>
-                    <li>React</li>
-                    <li>MongoDB</li>
-                    <li>AOS js a library for animations</li>
-
-                </ul>
-                <br/>
-                <section data-aos="fade-left"
-                         data-aos-anchor="#example-anchor"
-                         data-aos-offset="500"
-                         data-aos-duration="1000">
-
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4jmNi3fe0aU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </section>
                 
+                <section className="ruby-features">
+                <h3 className="r3">Description</h3>
+                <p className="rd">THis is a test to see what thaat will lool loke we can just make something up in the meantime.
+                    I know I can make this even better that It qas in the first place then there is the thing about how what was fone o wonder if 
+                    this is ebouth ext
+                </p>
+                </section>
+
+            
+            </section>
+
+
+            
+
+
+
             </div>
+          
+                
+           
         )
     }
 

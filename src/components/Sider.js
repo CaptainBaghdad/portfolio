@@ -4,6 +4,7 @@ import RubyComponent from '../components/rubyComponent';
 import NodeComponent from '../components/nodeComponent';
 import PythonComponent from '../components/pythonComponent';
 import HeaderComponent from '../components/headerComponent';
+import TouchComponent from './touchComponent';
 
 
 class SiderComponent extends React.Component{
@@ -15,7 +16,10 @@ class SiderComponent extends React.Component{
                 window.$(this).toggleClass('active');
             });
         });
+
+        
     }
+
 
 
     render(){
@@ -64,8 +68,13 @@ class SiderComponent extends React.Component{
                         <li>Bootstrap 3-4</li>
                         <li>Material Design</li>
                         <li>Linux</li>
-                        <li>Apache Server</li>            
-                        
+                        <li>Apache Server</li>
+                        <li><h2>Projects</h2></li>            
+                        <li>Big Mapple - <span>ROR and Google Maps API</span></li>
+                        <li>Used Cars -<span>MEAN Stack</span></li>
+                        <li>Touch Typing- <span>MERN Stack</span></li>
+                        <li>Clear Arabic- <span>Node and Handlebars js</span></li>
+                        <li>Python CRUD- <span>Python and Django</span></li>
                         </ul>
             </nav>
     
@@ -76,13 +85,24 @@ class SiderComponent extends React.Component{
                     <span></span>
                 </button>
                 <HeaderComponent></HeaderComponent>
-
-                <RubyComponent data-aos="fade-left"></RubyComponent>
+    <section id="ruby-projects">
+     <RubyComponent data-aos="fade-left">
+     </RubyComponent>
+     </section>
+     <br/>
+     <section id="node-projects">
      <NodeComponent data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="3000"></NodeComponent>
-
+     data-aos-duration="3000">
+     </NodeComponent>
+     </section>
+     <br/>
+     <section>
+         <TouchComponent></TouchComponent>
+     </section>
+     <section id="python-projects">
      <PythonComponent data-aos="zoom-in-right"></PythonComponent>
+            </section>
             </div>
     
     </div>

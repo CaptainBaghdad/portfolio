@@ -4,18 +4,38 @@
  
 }
 
-#node-div{
+.app-feat{
+  margin-left: 10px;
+}
+
+.node-div{
   background: #61dafb;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
-}
-#ruby-div{
-  background: #214141;;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: medium;
+  height: 550px;
+  color: white;
+  width: 100%;
 }
 
-#python-div{
+.touch-div{
+  background: #0d4d22;;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  height: 550px;
+  color: white;
+  width: 100%;
+
+}
+.ruby-div{
+  background: #ec3e3e;;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  height: 550px;
+  color: white;
+  width: 100%;
+}
+
+.python-div{
   background: rgba(224, 42, 42, 0.836);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
@@ -40,6 +60,35 @@
 
 .App-link {
   color: #61dafb;
+}
+
+hr{
+  margin-bottom: 30px;
+}
+
+.mapple-vid{
+  
+  margin-left: 15px;
+
+}
+
+.ruby-features{
+  float:right;
+}
+
+.rd{
+  width: 350px;
+}
+
+.r3{
+  margin-right: 20px;
+}
+.rn3{
+  margin-right: 390px;
+}
+
+.map{
+  margin-top:50px;
 }
 
 @keyframes App-logo-spin {
