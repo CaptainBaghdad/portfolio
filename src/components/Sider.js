@@ -2,9 +2,10 @@ import React, {Component} from 'react';
 import '../css/sider.css';
 import RubyComponent from '../components/rubyComponent';
 import NodeComponent from '../components/nodeComponent';
-import PythonComponent from '../components/pythonComponent';
+
 import HeaderComponent from '../components/headerComponent';
 import TouchComponent from './touchComponent';
+import CarsComponent from '../components/carsComponent';
 
 
 class SiderComponent extends React.Component{
@@ -100,8 +101,31 @@ class SiderComponent extends React.Component{
      <section>
          <TouchComponent></TouchComponent>
      </section>
-     <section id="python-projects">
-     <PythonComponent data-aos="zoom-in-right"></PythonComponent>
+     <br/>
+     <CarsComponent></CarsComponent>
+     <section id="interests">
+     <h3>Intrests</h3>
+     <p>When I need to take a break from coding to relive some stress, I enjoy time
+         either playing sports such as basketball or jogging. I also find that doing weight training in moderation helps me
+         to clear my mind as well. I used to be an over the road truck driver so I still enjoy traveling. I haven't made it out of the country
+         as of yet, but going across the Atlantic is in the plans. 
+     </p>
+            </section>
+
+            <section id="contact">
+                <ul>
+                    <li>
+                        <a href="https://github.com/CaptainBaghdad">Github</a>
+                        
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/jason-pitts-9b4a6159/">LinkedIn</a>
+                    </li>
+                    
+
+                </ul>
+                <h3>Email - jasonpitts63@gmail.com</h3>
+                
             </section>
             </div>
     
