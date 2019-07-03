@@ -6,6 +6,7 @@ import NodeComponent from '../components/nodeComponent';
 import HeaderComponent from '../components/headerComponent';
 import TouchComponent from './touchComponent';
 import CarsComponent from '../components/carsComponent';
+import WeatherComponent from '../components/weatherComponent';
 
 
 class SiderComponent extends React.Component{
@@ -70,12 +71,17 @@ class SiderComponent extends React.Component{
                         <li>Material Design</li>
                         <li>Linux</li>
                         <li>Apache Server</li>
-                        <li><h2>Projects</h2></li>            
-                        <li>Big Mapple - <span>ROR and Google Maps API</span></li>
-                        <li>Used Cars -<span>MEAN Stack</span></li>
-                        <li>Touch Typing- <span>MERN Stack</span></li>
-                        <li>Clear Arabic- <span>Node and Handlebars js</span></li>
-                        <li>Python CRUD- <span>Python and Django</span></li>
+                                   
+                       
+                        <li><h3>Contact Me</h3></li>
+                        <li>
+                        <a className="anchor" href="https://github.com/CaptainBaghdad">Github</a>
+                        
+                    </li>
+                    <li>
+                        <a className="anchor" href="https://www.linkedin.com/in/jason-pitts-9b4a6159/">LinkedIn</a>
+                    </li>
+                    <li>Email- <p>jasonpitts63@gmail.com</p></li>
                         </ul>
             </nav>
     
@@ -103,30 +109,27 @@ class SiderComponent extends React.Component{
      </section>
      <br/>
      <CarsComponent></CarsComponent>
+     <br/>
+     <section>
+      <WeatherComponent />
+     
+     
+     </section>
+     <br/>
      <section id="interests">
-     <h3>Intrests</h3>
+     <h3>Interests</h3>
      <p>When I need to take a break from coding to relive some stress, I enjoy time
          either playing sports such as basketball or jogging. I also find that doing weight training in moderation helps me
          to clear my mind as well. I used to be an over the road truck driver so I still enjoy traveling. I haven't made it out of the country
          as of yet, but going across the Atlantic is in the plans. 
      </p>
             </section>
+    <br/>
 
-            <section id="contact">
-                <ul>
-                    <li>
-                        <a href="https://github.com/CaptainBaghdad">Github</a>
-                        
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/jason-pitts-9b4a6159/">LinkedIn</a>
-                    </li>
-                    
+           
 
-                </ul>
-                <h3>Email - jasonpitts63@gmail.com</h3>
-                
-            </section>
+
+
             </div>
     
     </div>

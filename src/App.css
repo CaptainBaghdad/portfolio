@@ -39,6 +39,16 @@ body{
   width: 100%;
 }
 
+#weather-div{
+  background: #9da32e;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  height: 550px;
+  color: white;
+  width: 100%;
+
+}
+
 .python-div{
   background: rgba(224, 42, 42, 0.836);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
