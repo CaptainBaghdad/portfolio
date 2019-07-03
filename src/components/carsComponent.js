@@ -27,9 +27,10 @@ class CarsComponent extends React.Component{
                 
                 <section className="ruby-features">
                 <h3 className="r3">Description</h3>
-                <p className="rd">THis is a test to see what that will look like we can just make something up in the meantime.
-                    I know I can make this even better that It qas in the first place then there is the thing about how what was fone o wonder if 
-                    this is ebouth ext
+                <p className="rd">Used Cars is an application that shows users used cars for sale in the greate NY area. The main set of data comes from Carfax.com. 
+                Users can also place their own used car for sale on the site. Users can upload photos of their car as well as provide the specs and price they are looking for.
+                Users can also update that information incase they're having a hard time selling the car, or maybe they are still driving the car, so 
+                the mileage can be edited. The application also allows the user to edit the specs in case they have replaced a part or added some new feature to the car, such as tires, for example.
                 </p>
                 </section>
 
