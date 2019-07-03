@@ -29,9 +29,12 @@ class RubyCompoment extends React.Component{
                 
                 <section className="ruby-features">
                 <h3 className="r3">Description</h3>
-                <p className="rd">THis is a test to see what thaat will lool loke we can just make something up in the meantime.
-                    I know I can make this even better that It qas in the first place then there is the thing about how what was fone o wonder if 
-                    this is ebouth ext
+
+                <p className="rd">
+                Big Mapple is an application that allows users to register a new tourist destination in the greater NYC area.
+                Users can upload pictures of the cool places they have seen and think that others should vist as well.
+                Users can also give a decription of the place as well as rate the place based upon their experience. With the new place regitered, there will be a marker on the
+                map to show other users where the place is in relation to where they are.
                 </p>
                 </section>
 
