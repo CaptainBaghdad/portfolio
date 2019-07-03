@@ -15,7 +15,7 @@ class WeatherComponent extends React.Component{
                 
                 <iframe className="map" width="360" data-aos="zoom-in-right"
                 height="215" 
-                src="https://www.youtube.com/embed/48Wx6iL-TFE" 
+                src="https://youtu.be/58t9KTgOGYY" 
                 frameBorder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
