@@ -12,7 +12,7 @@ class CarsComponent extends React.Component{
                 
                 <section className="mapple-vid">
                 
-                <iframe width="360" height="215" src="https://www.youtube.com/embed/wR1GoXUYpcc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe className="map" width="360" height="215" src="https://www.youtube.com/embed/wR1GoXUYpcc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 <h5 data-aos="flip-right"><span>Used Cars</span></h5>
                 <h3 data-aos="flip-right" className="app-feat">Application Features</h3>
@@ -32,6 +32,15 @@ class CarsComponent extends React.Component{
                 Users can also update that information incase they're having a hard time selling the car, or maybe they are still driving the car, so 
                 the mileage can be edited. The application also allows the user to edit the specs in case they have replaced a part or added some new feature to the car, such as tires, for example.
                 </p>
+                <a href="https://github.com/CaptainBaghdad/used-cars">
+                <img 
+                height="80px;" 
+                width="80px;"
+                src="/images/git2.png" 
+                alt="github" 
+                className="git-pic rounded-circle"
+                
+                /></a>
                 </section>
 
             

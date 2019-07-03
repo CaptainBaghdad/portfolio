@@ -40,6 +40,15 @@ class TouchComponent extends React.Component{
                 The application also follows the RESTful standard in that it keeps track of the session on the client side.
 
                 </p>
+                <a href="https://github.com/CaptainBaghdad/touch-typing">
+                <img
+                 height="80px;"
+                  width="80px;" 
+                  src="/images/git2.png"
+                   alt="github" 
+                   className="git-pic rounded-circle"
+                   
+                   /></a>
                 </section>
 
             

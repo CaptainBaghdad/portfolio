@@ -91,7 +91,7 @@ class SiderComponent extends React.Component{
                     <span></span>
                     <span></span>
                 </button>
-                <HeaderComponent></HeaderComponent>
+                
     <section id="ruby-projects">
      <RubyComponent data-aos="fade-left">
      </RubyComponent>
@@ -121,7 +121,7 @@ class SiderComponent extends React.Component{
      <p>When I need to take a break from coding to relive some stress, I enjoy time
          either playing sports such as basketball or jogging. I also find that doing weight training in moderation helps me
          to clear my mind as well. I used to be an over the road truck driver so I still enjoy traveling. I haven't made it out of the country
-         as of yet, but going across the Atlantic is in the plans. 
+         as of yet, but going across the Atlantic/Pacific is in the plans. 
      </p>
             </section>
     <br/>
