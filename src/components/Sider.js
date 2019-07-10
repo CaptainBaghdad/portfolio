@@ -74,7 +74,7 @@ class SiderComponent extends React.Component{
                         <li>Apache Server</li>
                                    
                        
-                        <li><h3>Contact Me</h3></li>
+                        <li><h3>Github and LinkedIn</h3></li>
                         <li>
                         <a className="anchor" href="https://github.com/CaptainBaghdad">Github</a>
                         
@@ -82,7 +82,7 @@ class SiderComponent extends React.Component{
                     <li>
                         <a className="anchor" href="https://www.linkedin.com/in/jason-pitts-9b4a6159/">LinkedIn</a>
                     </li>
-                    <li>Email- <p>jasonpitts63@gmail.com</p></li>
+                    
                         </ul>
             </nav>
     
@@ -118,12 +118,14 @@ class SiderComponent extends React.Component{
      </section>
      <br/>
 
+
      <section id="python">
      <PythonComponent></PythonComponent>
 
 
 
      </section>
+
      
     <br/>
 
