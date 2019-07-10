@@ -7,6 +7,7 @@ import HeaderComponent from '../components/headerComponent';
 import TouchComponent from './touchComponent';
 import CarsComponent from '../components/carsComponent';
 import WeatherComponent from '../components/weatherComponent';
+import  PythonComponent from '../components/pythonComponent';
 
 
 class SiderComponent extends React.Component{
@@ -116,14 +117,14 @@ class SiderComponent extends React.Component{
      
      </section>
      <br/>
-     <section id="interests">
-     <h3>Interests</h3>
-     <p>When I need to take a break from coding to relive some stress, I enjoy time
-         either playing sports such as basketball or jogging. I also find that doing weight training in moderation helps me
-         to clear my mind as well. I used to be an over the road truck driver so I still enjoy traveling. I haven't made it out of the country
-         as of yet, but going across the Atlantic/Pacific is in the plans. 
-     </p>
-            </section>
+
+     <section id="python">
+     <PythonComponent></PythonComponent>
+
+
+
+     </section>
+     
     <br/>
 
            
