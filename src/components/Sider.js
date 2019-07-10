@@ -118,7 +118,7 @@ class SiderComponent extends React.Component{
      </section>
      <br/>
 
-     <section id="python">
+     <section >
      <PythonComponent></PythonComponent>
 
 
