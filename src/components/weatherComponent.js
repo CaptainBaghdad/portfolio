@@ -13,12 +13,13 @@ class WeatherComponent extends React.Component{
                 
                 <section className="mapple-vid">
                 
-                <iframe className="map" width="360" data-aos="zoom-in-right"
-                height="215" 
-                src="https://youtu.be/58t9KTgOGYY" 
-                frameBorder="0" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
+               <iframe className="map" 
+               width="360" 
+               height="215" 
+               src="https://www.youtube.com/embed/58t9KTgOGYY" 
+               frameborder="0" 
+               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+               allowfullscreen></iframe>
 
                 <h5 data-aos="flip-right"><span>Weather App</span></h5>
                 <h3 data-aos="flip-right" className="app-feat">Application Features</h3>
@@ -37,6 +38,14 @@ class WeatherComponent extends React.Component{
                 location. The response from the API will give the user the current temperature Fahrenheit. It will also return 
                 the current conditions as well as an icon that will let the user know the current time of the day.    
                 </p>
+                <a href="https://github.com/CaptainBaghdad/weatherapp">
+                <img 
+                height="80px;"
+                 width="80px;" 
+                 src="/images/git2.png" 
+                 alt="github"
+                 className="git-pic rounded-circle" 
+                 /></a>
                 </section>
 
             

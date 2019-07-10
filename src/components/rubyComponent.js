@@ -10,7 +10,7 @@ class RubyCompoment extends React.Component{
             <div className="ruby-div">
            
             <section data-aos="flip-right" className="ruby-projects">
-                <h3 className="r3">Ruby Projects</h3><br/><hr/>
+                <h3 className="r3">Ruby Project</h3><br/><hr/>
 
                 
                 
@@ -36,6 +36,15 @@ class RubyCompoment extends React.Component{
                 Users can also give a decription of the place as well as rate the place based upon their experience. With the new place regitered, there will be a marker on the
                 map to show other users where the place is in relation to where they are.
                 </p>
+                <a href="https://github.com/CaptainBaghdad/big-mapple">
+                <img 
+                height="80px;"
+                 width="80px;" 
+                 src="/images/git2.png" 
+                 alt="github" 
+                 className="git-pic rounded-circle"
+                 
+                 /></a>
                 </section>
 
             

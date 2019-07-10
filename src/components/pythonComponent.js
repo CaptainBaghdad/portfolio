@@ -5,7 +5,10 @@ class PythonComponent extends React.Component{
     render(){
         return (
             <div className="python-div">
+
             
+
+
             <section data-aos="flip-right" className="ruby-projects">
            <h3 className="r3" >Python Project</h3><br/><hr/>
 

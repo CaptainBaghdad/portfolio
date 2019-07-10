@@ -7,6 +7,7 @@ import HeaderComponent from '../components/headerComponent';
 import TouchComponent from './touchComponent';
 import CarsComponent from '../components/carsComponent';
 import WeatherComponent from '../components/weatherComponent';
+import  PythonComponent from '../components/pythonComponent';
 
 
 class SiderComponent extends React.Component{
@@ -91,7 +92,7 @@ class SiderComponent extends React.Component{
                     <span></span>
                     <span></span>
                 </button>
-                <HeaderComponent></HeaderComponent>
+                
     <section id="ruby-projects">
      <RubyComponent data-aos="fade-left">
      </RubyComponent>
@@ -116,6 +117,15 @@ class SiderComponent extends React.Component{
      
      </section>
      <br/>
+
+
+     <section id="python">
+     <PythonComponent></PythonComponent>
+
+
+
+     </section>
+
      
     <br/>
 

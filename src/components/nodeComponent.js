@@ -13,7 +13,7 @@ class NodeComponent extends React.Component{
         return (
             <div className="node-div">
             <section data-aos="flip-right" className="ruby-projects">
-                <h3 className="r3" >Node Projects</h3><br/><hr/>
+                <h3 className="r3" >Node Project</h3><br/><hr/>
 
                 
                 
@@ -45,6 +45,16 @@ class NodeComponent extends React.Component{
                 resourses to help the users to learn the 28 letters of the Arabic language.
                 There are embeded Youtube videos, audio files, and pictures.  
                 </p>
+                <a href="https://github.com/King-tut/cleararabic">
+                <img 
+                height="80px;" 
+                width="80px;" 
+                src="/images/git2.png" 
+                alt="github" 
+                className="git-pic rounded-circle"
+                
+                />
+                </a>
                 </section>
 
             

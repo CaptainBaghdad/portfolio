@@ -1,5 +1,11 @@
 body{
   background:white;
+  margin:0;
+  padding:0;
+  height:100%;
+   top:0px;
+    left:0px;
+    z-index:1000;
 }
 
 .App {
@@ -18,7 +24,7 @@ body{
   font-size: medium;
   height: 550px;
   color: white;
-  width: 100%;
+  width: 90%;
 }
 
 .touch-div{
@@ -27,7 +33,7 @@ body{
   font-size: medium;
   height: 550px;
   color: white;
-  width: 100%;
+  width: 90%;
 
 }
 .ruby-div{
@@ -36,7 +42,9 @@ body{
   font-size: medium;
   height: 550px;
   color: white;
-  width: 100%;
+  width:90%;
+  margin-right: 25px;
+  margin-top: 0px;
 }
 
 #weather-div{
@@ -45,7 +53,7 @@ body{
   font-size: medium;
   height: 550px;
   color: white;
-  width: 100%;
+  width: 90%;
 
 }
 
@@ -54,8 +62,10 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
   height: 550px;
-  color: white;
-  width: 100%;
+
+  color: rgb(247, 245, 130);
+  width: 90%
+
 }
 
 .ang-div{
@@ -64,7 +74,7 @@ body{
   font-size: medium;
   height: 550px;
   color: white;
-  width: 100%;
+  width: 90%;
 
 }
 
