@@ -73,7 +73,7 @@ class SiderComponent extends React.Component{
                         <li>Apache Server</li>
                                    
                        
-                        <li><h3>Contact Me</h3></li>
+                        <li><h3>Github and LinkedIn</h3></li>
                         <li>
                         <a className="anchor" href="https://github.com/CaptainBaghdad">Github</a>
                         
@@ -81,7 +81,7 @@ class SiderComponent extends React.Component{
                     <li>
                         <a className="anchor" href="https://www.linkedin.com/in/jason-pitts-9b4a6159/">LinkedIn</a>
                     </li>
-                    <li>Email- <p>jasonpitts63@gmail.com</p></li>
+                    
                         </ul>
             </nav>
     
@@ -116,14 +116,7 @@ class SiderComponent extends React.Component{
      
      </section>
      <br/>
-     <section id="interests">
-     <h3>Interests</h3>
-     <p>When I need to take a break from coding to relive some stress, I enjoy time
-         either playing sports such as basketball or jogging. I also find that doing weight training in moderation helps me
-         to clear my mind as well. I used to be an over the road truck driver so I still enjoy traveling. I haven't made it out of the country
-         as of yet, but going across the Atlantic is in the plans. 
-     </p>
-            </section>
+     
     <br/>
 
            
