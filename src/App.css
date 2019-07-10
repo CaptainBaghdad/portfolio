@@ -57,12 +57,12 @@ body{
 }
 
 .python-div{
-  background: rgba(253, 249, 3, 0.836);
+  background: rgba(206, 91, 252, 0.836);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
   height: 550px;
 
-  color: rgb(247, 245, 130);
+  color: white;
   width: 100%
 }
 

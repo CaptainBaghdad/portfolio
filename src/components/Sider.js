@@ -87,7 +87,7 @@ class SiderComponent extends React.Component{
             </nav>
     
             <div id="content">
-                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                <button type="button" id="sidebarCollapse" className="navbar-btn">
                     <span></span>
                     <span></span>
                     <span></span>
