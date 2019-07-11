@@ -94,47 +94,39 @@ class SiderComponent extends React.Component{
                 </button>
                 
     <section id="ruby-projects">
-     <RubyComponent data-aos="fade-left">
-     </RubyComponent>
+     <RubyComponent data-aos="fade-left"></RubyComponent>
+    </section>
+     <br/>
+
+     <section id="node-projects">
+      <NodeComponent data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="3000">
+      </NodeComponent>
      </section>
      <br/>
-     <section id="node-projects">
-     <NodeComponent data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="3000">
-     </NodeComponent>
+
+     <section>
+        <TouchComponent></TouchComponent>
      </section>
      <br/>
      <section>
-         <TouchComponent></TouchComponent>
+        <CarsComponent></CarsComponent>
      </section>
      <br/>
-     <CarsComponent></CarsComponent>
-     <br/>
+
      <section>
       <WeatherComponent />
-     
-     
      </section>
      <br/>
 
 
      <section id="python">
-     <PythonComponent></PythonComponent>
-
-
-
+       <PythonComponent></PythonComponent>
      </section>
+     <br/>
 
-     
-    <br/>
-
-           
-
-
-
-            </div>
-    
+        </div>
     </div>
         )
     }
