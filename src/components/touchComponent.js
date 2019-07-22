@@ -47,6 +47,7 @@ class TouchComponent extends React.Component{
                   src="/images/git2.png"
                    alt="github" 
                    className="git-pic rounded-circle"
+                   id="git-react"
                    
                    /></a>
                 </section>

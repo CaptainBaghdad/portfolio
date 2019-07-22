@@ -33,17 +33,17 @@ class RubyCompoment extends React.Component{
                 <p className="rd">
                 Big Mapple is an application that allows users to register a new tourist destination in the greater NYC area.
                 Users can upload pictures of the cool places they have seen and think that others should vist as well.
-                Users can also give a decription of the place as well as rate the place based upon their experience. With the new place regitered, there will be a marker on the
+                Users can also give a description of the place as well as rate the place based upon their experience. With the new place registered, there will be a marker on the
                 map to show other users where the place is in relation to where they are.
                 </p>
-                <a href="https://github.com/CaptainBaghdad/big-mapple">
+                <a  href="https://github.com/CaptainBaghdad/big-mapple">
                 <img 
                 height="80px;"
                  width="80px;" 
                  src="/images/git2.png" 
                  alt="github" 
-                 className="git-pic rounded-circle"
-                 
+                 className="rounded-circle"
+                 id="ruby-git"
                  /></a>
                 </section>
 

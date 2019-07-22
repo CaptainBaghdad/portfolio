@@ -44,7 +44,8 @@ class WeatherComponent extends React.Component{
                  width="80px;" 
                  src="/images/git2.png" 
                  alt="github"
-                 className="git-pic rounded-circle" 
+                 className="git-pic rounded-circle"
+                 id="git-weather" 
                  /></a>
                 </section>
 

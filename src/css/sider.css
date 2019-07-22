@@ -5,11 +5,30 @@
     margin-left: -843px;
 }
 .git-pic{
+    margin-top: 20px;
 
+}
+#ruby-git{
+    margin-top:100px;
+}
+
+#git-weather{
+    margin-top: 150px;
+}
+
+#git-node{
+    margin-top: 100px;
+}
+
+#git-react{
+    margin-top: 100px;
 }
 
 #con li{
  list-style: none;  
+}
+.jumbotron{
+    background: rgb(57, 18, 230)
 }
 
 #interests{
@@ -36,16 +55,25 @@ h5{
     
 }
 
-.ruby-features{
+#connect ul li{
+    list-style: none;
+    
+}
+
+/*.ruby-features{
     float: left;
     margin-left: 80px;
-}
+}*/
 
 #about-tag{
     margin-top: 20px;
 }
 
 .anchor{
+    color:white;
+}
+
+.fh5co-testimonial{
     color:white;
 }
 

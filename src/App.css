@@ -21,7 +21,7 @@ body{
   background: #61dafb;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
-  height: 550px;
+  height: 1000px;
   color: white;
   width: 100%;
 }
@@ -30,7 +30,7 @@ body{
   background: #0d4d22;;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
-  height: 550px;
+  height: 1000px;
   color: white;
   width: 100%;
 
@@ -39,10 +39,10 @@ body{
   background: #ec3e3e;;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
-  height: 550px;
+  height:1000px;
   color: white;
   width: 100%;
-  margin-right: 25px;
+ 
   margin-top: 0px;
 }
 
@@ -50,7 +50,7 @@ body{
   background: #9da32e;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
-  height: 550px;
+  height:1000px;
   color: white;
   width: 100%;
 
@@ -60,7 +60,7 @@ body{
   background: rgba(206, 91, 252, 0.836);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
-  height: 550px;
+  height:1000px;
 
   color: white;
   width: 100%
@@ -70,7 +70,7 @@ body{
   background: #543;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: medium;
-  height: 550px;
+  height: 1000px;
   color: white;
   width: 100%;
 
@@ -112,14 +112,14 @@ hr{
 }
 
 .rd{
-  width: 350px;
+  padding-right:20px;
 }
 
 .r3{
-  margin-right: 20px;
+  
 }
 .rn3{
-  margin-right: 390px;
+  margin-right: 5px;
 }
 
 .map{

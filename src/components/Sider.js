@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
 import '../css/sider.css';
+import Work from '../images/work_1.jpg';
+import Work2 from '../images/work_2.jpg';
+import Work3 from '../images/work_3.jpg';
+//import PersonOne from '../images/meme.jpg';
+import PersonThree from "../images/testimonial_person3.jpg";
 import RubyComponent from '../components/rubyComponent';
 import NodeComponent from '../components/nodeComponent';
 
@@ -26,108 +31,112 @@ class SiderComponent extends React.Component{
 
 
     render(){
+        let styles = {
+            backgroundImage: 'url("images/hero.jpg")'
+
+        }
         return (
-            <div class="wrapper">
-
-            <nav id="sidebar">
-           
-                <div class="sidebar-header">
-                    <h3>Jason Pitts</h3>
-                </div>
-
-                <div id="pro-pic">
-                <img className="rounded-circle" src="/images/meme.jpg" alt="no data" height="100px;" width="125px"/>
-                </div>
+            <div id="fh5co-page">
+            <a href="#" className="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+          
     
-                
-                <ul class="list-unstyled components">
+            <div id="fh5co-main">
+    
+                <div className="fh5co-narrow-content">
                     
-                    <li><h2 id="about-tag">About</h2></li>
-                    <li>
-                       <p>I am a full stack developer who lives in the greater NYC area.
-                           I am a self taught programmer who has a solid background in customer service as well as sales.
-                           Building state-of-the-art, easy to use, user-friendly websites and applications is truly a passion of mine. 
-                       </p>
+                    <div className="row animate-box" data-animate-effect="fadeInLeft">
+                        <div className="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+                            
+                                <PythonComponent />
+                                <h3 className="fh5co-work-title"></h3>
+                                <p></p>
+                            
+                        </div>
+                        <div className="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+                            <RubyComponent/>
+                               
+                                <h3 className="fh5co-work-title"></h3>
+                                <p></p>
+                           
+                        </div>
+                        <div className="clearfix visible-sm-block"></div>
+                        <div className="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+                            
+                               <CarsComponent />
+                                <h3 className="fh5co-work-title"></h3>
+                                <p></p>
+                            
+                        </div>
+                        <div className="clearfix visible-md-block"></div>
+                        <div className="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+                            
+                                <WeatherComponent />
+                                <h3 className="fh5co-work-title"></h3>
+                                <p></p>
+                          
+                        </div>
+                        <div className="clearfix visible-sm-block"></div>
+                        <div className="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+                            <NodeComponent />
+
+                                <h3 className="fh5co-work-title"></h3>
+                                <p></p>
+                            
+                        </div>
+                        <div className="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+                           
+                                <TouchComponent />
+                                <h3 className="fh5co-work-title"></h3>
+                                <p></p>
+                          
+                        </div>
                        
-                    </li>
-                    
-                        <li><h2>Skills</h2></li>
-                        <li>JavaScript</li>
-                        <li>Nodejs</li>
-                        <li>Ruby</li>
-                        <li>Python</li>
-                        <li>Java</li>
-                        <li>MongoDB</li>
-                        <li>MySQL</li>
-                        <li>React</li>
-                        <li>Angular</li>
-                        <li>JQuery</li>
-                        <li>Java 8</li> 
-                        <li>PHP</li>
-                        <li>Laravel</li> 
-                        <li>Express js</li> 
-                        <li>HTML 5</li>
-                        <li>CSS</li>
-                        <li>Bootstrap 3-4</li>
-                        <li>Material Design</li>
-                        <li>Linux</li>
-                        <li>Apache Server</li>
-                                   
-                       
-                        <li><h3>Github and LinkedIn</h3></li>
-                        <li>
-                        <a className="anchor" href="https://github.com/CaptainBaghdad">Github</a>
                         
-                    </li>
-                    <li>
-                        <a className="anchor" href="https://www.linkedin.com/in/jason-pitts-9b4a6159/">LinkedIn</a>
-                    </li>
-                    
-                        </ul>
-            </nav>
-    
-            <div id="content">
-                <button type="button" id="sidebarCollapse" className="navbar-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+                    </div>
+                </div>
                 
-    <section id="ruby-projects">
-     <RubyComponent data-aos="fade-left"></RubyComponent>
-    </section>
-     <br/>
+                
+                <div className="fh5co-testimonial" >
+                    <div className="fh5co-narrow-content">
+                        <div className="owl-carousel-fullwidth animate-box" data-animate-effect="fadeInLeft">
+                        <div className="jumbotron">
+                            <figure>
+                                <img src="/images/meme.jpg" alt="Free HTML5 Bootstrap Template" className="rounded-circle" />
+                            </figure>
+                              <p className="text-center quote">Hello, my name is Jason Pitts and I am a Full Stack Engineer. I live in NYC and love to build modern, responsive web and mobile applications. You can connect with me by checking out my 
+                              LinkedIn and Github right below.
+                               
+                               </p>
+                        </div>
+                       
+                        
+                      </div>
+                    </div>
+                </div>
 
-     <section id="node-projects">
-      <NodeComponent data-aos="flip-left"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="3000">
-      </NodeComponent>
-     </section>
-     <br/>
+                <div id="connect">
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/jason-pitts-9b4a6159/">LinkedIn</a>
+                    </li>
+                    <li><a href="https://github.com/CaptainBaghdad">Github</a></li>
 
-     <section>
-        <TouchComponent></TouchComponent>
-     </section>
-     <br/>
-     <section>
-        <CarsComponent></CarsComponent>
-     </section>
-     <br/>
+                </ul>
 
-     <section>
-      <WeatherComponent />
-     </section>
-     <br/>
-
-
-     <section id="python">
-       <PythonComponent></PythonComponent>
-     </section>
-     <br/>
-
+                </div>
+    
+    
+                
+                
+            
+               
+                
+    
+            </div>
         </div>
-    </div>
+    
+        
+    
         )
     }
 

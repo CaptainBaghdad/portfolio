@@ -26,7 +26,9 @@ class CarsComponent extends React.Component{
                 </section>
                 
                 <section className="ruby-features">
+                <center>
                 <h3 className="r3">Description</h3>
+                </center>
                 <p className="rd">Used Cars is an application that shows users used cars for sale in the greate NY area. The main set of data comes from Carfax.com. 
                 Users can also place their own used car for sale on the site. Users can upload photos of their car as well as provide the specs and price they are looking for.
                 Users can also update that information incase they're having a hard time selling the car, or maybe they are still driving the car, so 
